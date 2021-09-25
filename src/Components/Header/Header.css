@@ -1,0 +1,42 @@
+.header-container{
+    display: flex;
+    background-color: black;
+    line-height: 50px;
+    
+}
+.image-container img{
+    width:300px;
+    height:100px;
+    
+}
+.nav-container{
+    margin-left: 100px;
+    margin-top: 20px;
+    
+}
+.nav-container nav a{
+    text-decoration: none;
+    padding-left: 20px;
+ font-size: 23px;
+ color:white;
+ margin-top: 20px;
+}
+.nav-container nav a:hover{
+    background-color:teal;
+}
+.search-container{
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.search-container input{
+    border: 2px solid gold;
+    height:30px;
+    width:300px;
+    outline: gold;
+    
+}
+.cart-icon{
+    color:gold;
+    margin-left: 20px;
+    font-size: 20px;
+}
